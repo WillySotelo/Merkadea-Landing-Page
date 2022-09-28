@@ -108,7 +108,7 @@ input[name="r"]{
 #r2:checked ~ .s1 {margin-left: -20%;}
 #r3:checked ~ .s1 {margin-left: -40%;}
 /*----SLIDER----*/
-
+/*----BARRA SEPARADORA----*/
 .body1 {
     position: absolute;
     background: linear-gradient(90deg, #414D0B 0%, #727A17 100%);
@@ -133,7 +133,7 @@ input[name="r"]{
     font-size: 4rem;
     color: black;
     display: flex;
-    padding-left: 6vh;
+    padding-left: 3vw;
     padding-top: 20vh;
     font-family: 'Inter';
 }
@@ -161,4 +161,96 @@ input[name="r"]{
 
 .body1 a:hover {
     color: black;
+}
+/*----BARRA SEPARADORA----*/
+/*----INGRESO DEL USUARIO----*/
+#p1-body2 {
+    color: #000000;
+    position: absolute;
+    left: 7vw;
+    top: 150vh;
+    font-family: 'Inter';
+    font-style: normal;
+    display: flex;
+    font-size: 96px;
+    font-weight: 800;
+}
+
+#p2-body2 {
+    position: absolute;
+    color: #FFFFFF;
+    left: 13vw;
+    top: 165vh;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+#p3-body2 { /*Consumidor*/
+    /*Cuadro*/
+    position: absolute;
+    width: 28vw;
+    height: 10vh;
+    top: 170vh;
+    left: 6vw;
+    background: #FE8C00;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    text-align: center;
+    /*Texto*/
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 90px;
+    color: #FFFFFF;
+}
+
+#p4-body2 { /*ó*/
+    position: absolute;
+    color: #FFFFFF;
+    top: 183vh;
+    left: 20vw;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 30px;
+}
+
+#p5-body2 { /*Comerciante*/
+    /*Cuadro*/
+    position: absolute;
+    width: 28vw;
+    height: 10vh;
+    top: 187vh;
+    left: 6vw;
+    background: #FE8C00;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    text-align: center;
+    /*Texto*/
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 90px;
+    color: #FFFFFF;
+}
+
+#p6-body2 { /*¿No tienes una cuenta? Registrate*/
+    position: absolute;
+    color: #FFFFFF;
+    top: 198vh;
+    left: 10vw;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 30px;
+}
+
+.body2 img {
+    position: absolute;
+    left: 70vw;
+    top: 120vh;
+    width: 30vw;
+    height: 90vh;
 }
