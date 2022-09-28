@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
 }
+/*----HEADER----*/
 header {
     display: flex;
     justify-content: space-between;
@@ -48,10 +49,9 @@ nav a:hover {
     padding-top: 20px;
     color: #000000;
 }
-
+/*----HEADER----*/
+/*----SLIDER----*/
 .slidershow {
-    /*width: 885px;
-    height: 469px;*/
     width: 85vw;
     height: 60vh;
     overflow: hidden;
@@ -81,9 +81,7 @@ nav a:hover {
     transform: 0.4s;
 }
 
-.bar:hover {
-    background: #fff;
-}
+.bar:hover {background: #fff;}
 
 input[name="r"]{
     position: absolute;
@@ -106,25 +104,61 @@ input[name="r"]{
     height: 100%;
 }
 
-#r1:checked ~ .s1 {
-    margin-left: 0;
-}
+#r1:checked ~ .s1 {margin-left: 0;}
+#r2:checked ~ .s1 {margin-left: -20%;}
+#r3:checked ~ .s1 {margin-left: -40%;}
+/*----SLIDER----*/
 
-#r2:checked ~ .s1 {
-    margin-left: -20%;
-}
-
-#r3:checked ~ .s1 {
-    margin-left: -40%;
-}
-
-.medio nav {
+.body1 {
+    position: absolute;
     background: linear-gradient(90deg, #414D0B 0%, #727A17 100%);
-    height: 20vh;
+    display: flex;
     width: 100vw;
-    top: 150px;
+    height: 30vh;
+    top: 90vh;
 }
 
-.medio1 {
-    top: 150px;
+#p1-body1 {
+    position: absolute;
+    font-size: 4rem;
+    color: #FFFFFF;
+    display: flex;
+    padding-left: 6vh;
+    padding-top: 10vh;
+    font-family: 'Inter';
+}
+
+#p2-body1 {
+    position: absolute;
+    font-size: 4rem;
+    color: black;
+    display: flex;
+    padding-left: 6vh;
+    padding-top: 20vh;
+    font-family: 'Inter';
+}
+
+.body1 a{
+    /*---CUADRO---*/
+    position: absolute;
+    background: #FE8C00;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    text-align: center;
+    width: 27vw;
+    height: 10vh;
+    top: 12vh;
+    left: 60vw;
+    /*---TEXTO---*/
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 90px;
+    color: #FFFFFF;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.body1 a:hover {
+    color: black;
 }
