@@ -1,3 +1,5 @@
+Agregar el comando "npm.cmd install --save-dev @angular-devkit/build-angular" en la carpeta al utilizar visual studio
+
 # Merkadea
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.2.
